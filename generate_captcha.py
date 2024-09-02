@@ -1,10 +1,3 @@
-# PythonProjects
-This repository is my python projects
-
-## 1. Generate Captcha in python
-```shell
-pip install captcha
-# create python file and write this code
 import string
 
 from captcha.image import ImageCaptcha
@@ -27,5 +20,3 @@ image_file=generate_captcha_image(captcha_text)
 
 print(f"GENERATED CAPTCHA")
 Image.open(image_file).show()
-
-```
